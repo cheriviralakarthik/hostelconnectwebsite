@@ -1,0 +1,288 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+.logoheader {
+  font-size: medium;
+  margin-left: 20px;
+  color: #333;
+  font-weight: 400;
+}
+.logodiv {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  color: black;
+  margin: 0 10px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  color: #fff;
+}
+
+#hero {
+  background-image: url("hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#maincontainer {
+  flex-direction: row;
+  display: flex;
+  margin: 20px;
+  border: none;
+}
+
+#Features {
+  margin: 20px;
+}
+
+.maindiv {
+    height: 100%;
+            background-color: #13131f;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction:column;
+            align-content: center;
+}
+
+.mainfirst{
+    background-color: black; width: 50%; height: 600px
+  }
+
+  .image{
+    width: 100%; height: 600px;  object-fit: cover;
+  }
+
+  .imagediv{
+    width: 50%
+  }
+
+  .maindivh1{
+    color: white;
+    font-size: 5rem;
+    font-weight: 300;
+    margin-top: 25px;
+  }
+
+  .divcard{
+    flex-direction: row;
+      display: flex;
+      margin: 40px;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  .card{
+    width: 50%;
+            height: 300px;
+            background-color: white;
+            color: black;
+            padding: 20px;
+            margin-right: 5%;
+            border-radius: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            justify-content: center;
+            align-items: center;
+            padding-top: 50px;
+  }
+
+  .cardh2{
+    font-weight: 100; font-size: 2rem; text-align: center
+  }
+
+  .cardh3{
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin: 30px;
+    line-height: 30px;
+  }
+
+@media screen and (max-width: 550px) {
+    #maincontainer {
+        flex-direction: column;
+        display: flex;
+        margin: 20px;
+        border: none;
+      }
+
+      .image{
+        width: 100%; height: 600px; object-fit: contain;
+      }
+      .mainfirst{
+        background-color: black; width: 100%; height: 600px
+      }
+     
+      .imagediv{
+        width: 100%;
+        background-color:  #13131f;
+      }
+
+      .maindivh1{
+        color: white;
+        font-size: 3rem;
+        font-weight: 300;
+        margin-top: 25px;
+      }
+      nav a {
+        color: black;
+        margin: 0 3px;
+        font-size: 10px;
+      }
+
+      .divcard{
+        flex-direction: column;
+          display: flex;
+          margin: 40px;
+          align-items: center;
+          justify-content: space-around;
+      }
+      .card{
+        width: 100%;
+                height: 300px;
+                background-color: white;
+                color: black;
+                padding: 20px;
+                margin-right: 5%;
+                border-radius: 20px;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+                justify-content: center;
+                align-items: center;
+                padding-top: 50px;
+                margin-top: 20px;
+      }
+
+      .cardh2{
+        font-weight: 100; font-size: 1.2rem; text-align: center
+      }
+
+      .cardh3{
+        font-weight: normal;
+        font-size: 0.9rem;
+        margin: 30px;
+        line-height: 30px;
+      }
+
+}
+
+@media screen and (max-width: 1180px) {
+    #maincontainer {
+        flex-direction: column;
+        display: flex;
+        margin: 20px;
+        border: none;
+      }
+
+      .image{
+        width: 100%; height: 600px; object-fit: contain;
+        background-color:  #13131f;
+      }
+      .mainfirst{
+        background-color: black; width: 100%; height: 600px
+      }
+     
+      .imagediv{
+        width: 100%
+      }
+
+      .maindivh1{
+        color: white;
+        font-size: 3rem;
+        font-weight: 300;
+        margin-top: 25px;
+      }
+      nav a {
+        color: black;
+        margin: 0 3px;
+        font-size: 10px;
+      }
+
+      .divcard{
+        flex-direction: column;
+          display: flex;
+          margin: 40px;
+          align-items: center;
+          justify-content: space-around;
+      }
+      .card{
+        width: 100%;
+                height: 300px;
+                background-color: white;
+                color: black;
+                padding: 20px;
+                margin-right: 5%;
+                border-radius: 20px;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+                justify-content: center;
+                align-items: center;
+                padding-top: 50px;
+                margin-top: 20px;
+      }
+
+      .cardh2{
+        font-weight: 100; font-size: 1.2rem; text-align: center
+      }
+
+      .cardh3{
+        font-weight: normal;
+        font-size: 0.9rem;
+        margin: 30px;
+        line-height: 30px;
+      }
+
+}
+
+/* Media Queries */
+
+/* @media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  #hero {
+    padding: 80px 20px;
+  }
+
+  .accommodation-list {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  #booking form {
+    max-width: 300px;
+  }
+}
+
+ 
