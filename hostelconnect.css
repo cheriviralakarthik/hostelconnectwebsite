@@ -102,7 +102,7 @@ footer {
 
   .card{
     width: 50%;
-            height: 300px;
+            min-height: 300px;
             background-color: white;
             color: black;
             padding: 20px;
@@ -125,7 +125,24 @@ footer {
     line-height: 30px;
   }
 
-@media screen and (max-width: 550px) {
+  .maindivh2{
+   
+              color: white;
+              font-size: 2rem;
+              margin-top: 20px;
+              font-weight: 200;
+           
+  }
+  .maindivh3{
+    color: white;
+              font-size: large;
+              margin-top: 10px;
+              font-weight: 100;
+  }
+
+
+
+@media screen and (min-width: 50px) and (max-width: 500px) {
     #maincontainer {
         flex-direction: column;
         display: flex;
@@ -166,7 +183,7 @@ footer {
       }
       .card{
         width: 100%;
-                height: 300px;
+                min-height: 300px;
                 background-color: white;
                 color: black;
                 padding: 20px;
@@ -177,22 +194,43 @@ footer {
                 align-items: center;
                 padding-top: 50px;
                 margin-top: 20px;
+                
       }
 
       .cardh2{
-        font-weight: 100; font-size: 1.2rem; text-align: center
+        font-weight: 100; font-size: 1.0rem; text-align: center
       }
 
       .cardh3{
         font-weight: normal;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         margin: 30px;
         line-height: 30px;
       }
 
+      .maindivh2{
+   text-align: center;
+        color: white;
+        font-size: 1.5rem;
+        margin-top: 20px;
+        font-weight: 200;
+     
 }
 
-@media screen and (max-width: 1180px) {
+.maindivh3{
+    color: white;
+              font-size: large;
+              margin-top: 10px;
+              font-weight: 100;
+             
+              font-size: small;
+  }
+
+
+}
+
+@media screen and (min-width: 560px) and (max-width: 1180px) {
+    /* Your CSS code here */
     #maincontainer {
         flex-direction: column;
         display: flex;
@@ -233,7 +271,7 @@ footer {
       }
       .card{
         width: 100%;
-                height: 300px;
+                min-height: 300px;
                 background-color: white;
                 color: black;
                 padding: 20px;
@@ -257,7 +295,24 @@ footer {
         line-height: 30px;
       }
 
+      .maindivh2{
+   
+        color: white;
+        font-size: 2rem;
+        margin-top: 20px;
+        font-weight: 200;
+     
 }
+.maindivh3{
+    color: white;
+              font-size: large;
+              margin-top: 10px;
+              font-weight: 100;
+  }
+
+}
+
+
 
 /* Media Queries */
 
